@@ -19,7 +19,7 @@
         android:textColor="#414141"
         android:textSize="32px" />
 
-    <com.lunger.bidirtabledemo.view.NoScrollHorizontalScrollView
+    <com.noteam.hvtable.view.NoScrollHorizontalScrollView
         android:id="@+id/sv_title"
         android:layout_width="match_parent"
         android:layout_height="100px"
@@ -44,7 +44,7 @@
 
 
         </LinearLayout>
-    </com.lunger.bidirtabledemo.view.NoScrollHorizontalScrollView>
+    </com.noteam.hvtable.view.NoScrollHorizontalScrollView>
 
     <View
         android:layout_width="match_parent"
@@ -68,7 +68,7 @@
 
             android:scrollbars="none" />
         <!--android:layout_below="@id/tv_name"-->
-        <com.lunger.bidirtabledemo.view.LinkedHorizontalScrollView
+        <com.noteam.hvtable.view.LinkedHorizontalScrollView
             android:id="@+id/sv_good_detail"
             android:layout_width="1500px"
             android:layout_height="match_parent"
@@ -79,7 +79,7 @@
                 android:id="@+id/lv_good_info"
                 android:layout_width="1500px"
                 android:layout_height="match_parent" />
-        </com.lunger.bidirtabledemo.view.LinkedHorizontalScrollView>
+        </com.noteam.hvtable.view.LinkedHorizontalScrollView>
 
     </LinearLayout>
 </RelativeLayout>
